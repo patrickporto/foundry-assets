@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "foundry-assets"
+version = "0.1.0"
+description = ""
+authors = ["Patrick Porto <patrick.s.porto@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+packages = [{include = "foundryassets"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.3"
+rich = "^12.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
